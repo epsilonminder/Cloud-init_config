@@ -55,6 +55,7 @@ qm set 9000 --serial0 socket --vga serial0
 ```
 
 なお、ここの出力をシリアルコンソールにしたくないときはvgaの引数をstdにしておくのがよい（らしい）が、
+私の観測範囲では、ここをserialにしていてもnoVNCやxterm.jsは動きそう。
 
 ## 7. オプション：DNS設定（DHCPにDNSが含まれない環境向け
 
