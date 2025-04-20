@@ -89,7 +89,7 @@ ProxmoxのGUIでVM 9000（テンプレート）を右クリック → 「クロ�
 working, local-lvm は環境に応じて変更可
 他のOS（Debian, Rockyなど）でも同様の流れで対応可能
 
-🎉 まとめ
+## 🎉 まとめ
 これでProxmox上にCloud-Init対応テンプレートが完成！
 以後はGUIからクローンして数クリックでVM作成・起動可能🎊
 
