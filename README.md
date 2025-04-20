@@ -9,7 +9,7 @@ Proxmox GUIから簡単にCloud-Init対応のUbuntu VMをクローン・作成�
 
 ## ✅ 事前準備
 
-- Proxmox上で操作するノード（例: `arctrus`）を決める
+- Proxmox上で操作するノード（例: `Prox_node1`）を決める
 - `working` というマウント済みストレージがある前提
 
 ---
@@ -19,7 +19,7 @@ Proxmox GUIから簡単にCloud-Init対応のUbuntu VMをクローン・作成�
 Ubuntu公式から最新のcloudimgを取得（例：Ubuntu 24.04 Noble）
 
 ```jsx
-wget <https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img> \\
+wget https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img \\
      -P /mnt/pve/working/template/iso/
 ```
 
